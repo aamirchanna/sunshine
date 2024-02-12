@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            width: 500px;
+            justify-content: flex-start !important;
+        }
+
+        .navbar ul {
+            margin-left: 200px !important;
+        }
+
+        .welcome {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 100px !important;
+            margin-bottom: 160px !important;
+        }
+
+        .navbar-toggler {
+            padding: 5px 5px;
+            font-size: 0.8rem !important;
+        }
+     ul a:hover{
+            border-bottom: 2px solid green;
+        }
+
+        @media (max-width: 991px) {
+            .navbar .list-unstyled {
+                display: none !important;
+            }
+
+            .navbar-toggler {
+                padding: 2px 5px;
+                font-size: 0.875rem;
+            }
+        }
+
+        .navbar-brand {
+            width: 230px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar bg-body ">
+        <div class="container-fluid mt-3">
+
+            <a class="navbar-brand" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="24"
+                    height="33">
+                    <path
+                        d="M15 3c.55 0 1 .45 1 1v9c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1 0-.55.45-1 1-1h4c.55 0 1 .45 1 1Zm-4.5 9c1.94 0 3.5-1.56 3.5-3.5S12.44 5 10.5 5 7 6.56 7 8.5 8.56 12 10.5 12ZM13 8.5c0 1.38-1.13 2.5-2.5 2.5S8 9.87 8 8.5 9.13 6 10.5 6 13 7.13 13 8.5ZM6 5V4H2v1Z">
+                    </path>
+                </svg> SUNSHINE</a>
+
+            <ul class="d-flex list-unstyled gap-4 justify-content-end text-secondary mt-3">
+                <li><a class=" text-reset text-decoration-none" href="#">HOME</a></li>
+                <li><a class=" text-reset text-decoration-none" href="#">ALBUMS</a></li>
+                <li><a class=" text-reset text-decoration-none" href="#">ABOUT</a></li>
+                <li><a class=" text-reset text-decoration-none" href="#">BLOGS</a></li>
+                <li><a class=" text-reset text-decoration-none" href="#">CONTACT</a></li>
+            </ul>
+
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-1">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="welcome fs-3 d-flex justify-content-center m-5">HELLO! WELCOME TO SUNZINE PHOTO GALLERY WITH <br>
+        CREATIVE & UNIQUE STYLE</div>
+    <ul class="d-flex gap-4 justify-content-center mb-5 text-secondary ">
+
+        <li><a class="text-reset text-decoration-none" href="#">ALL</a></li>
+        <li><a class="text-reset text-decoration-none" href="">PHOTOGRAPHY</a></li>
+        <li><a class="text-reset text-decoration-none" href="#">TRAVEL</a></li>
+        <li><a class="text-reset text-decoration-none" href="#">NATURE</a></li>
+        <li><a class="text-reset text-decoration-none" href="#">FASHION</a></li>
+    </ul>
+    <!-- body  -->
+    <div class="container-fluid max-h-100 mt-4 mb-4 justify-content-center ">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img1.webp" class="img-fluid rounded thumbail " alt=""
+                    style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img3.webp" class="img-fluid rounded thumbail" alt=""
+                    style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img4.webp" class="img-fluid rounded thumbnail" alt=""
+                    style="min-height:300px; width:100%;">
+            </div>
+        </div>
+        <!-- row 2 -->
+        <div class="row ">
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img5.webp" alt="" class="img-fluid " style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img6.webp" alt="" class="img-fluid " style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img8.webp" alt="" class="img-fluid" style="min-height:300px; width:100%; ">
+            </div>
+        </div>
+        <!-- row 3  -->
+        <div class="row " id="travel">
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img9.webp" alt="" class="img-fluid" style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img2.webp" alt="" class="img-fluid" style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img10.webp" alt="" class="img-fluid" style="min-height:300px; width:100%;">
+            </div>
+        </div>
+        <!-- row 4 -->
+        <div class="row ">
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img11.webp" alt="" class="img-fluid" style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img11.webp" alt="" class="img-fluid" style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img12.webp" alt="" class="img-fluid" style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img13.webp" alt="" class="img-fluid" style="min-height:300px; width:100%;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                <img src="./assets/img14.webp" alt="" class="img-fluid" style="min-height:300px; width:100%;">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="d-flex justify-content-center mb-4">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <div class="container-fluid text-white bg-dark w-auto justify-content-center align-items-center d-flex">
+        <span class="">Copyright © 2024 All rights reserved | This template is made aamir
+        </span>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
